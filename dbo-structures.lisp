@@ -1,7 +1,7 @@
 ;;; -*- mode:lisp; coding:utf-8 -*-
 
 ;;; Lisp persistence object
-;;; This file is part of the :dbo package
+;;; This file is part of the :pos package
 ;;; Copyright © 2018 Vladimir Mezentsev
 ;;;
 
@@ -24,6 +24,6 @@
     (lambda (obj)
         (eq (cdr (das::das/structure-pred obj)) 'dbo )))
 
-(in-package :cl-user)
+
 
 ;;; EOF
